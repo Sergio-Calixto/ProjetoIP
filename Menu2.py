@@ -1,5 +1,4 @@
-
-
+ProjetoIP
 
 print(" _________________________-__________________________ ")
 print("|  Autor: Sérgio Batista da Silva                    |")
@@ -10,7 +9,6 @@ print("|  Data: 06/06/2016                                  |")
 print("|  Descrição: Aqui você poderá fazer o Cadastro      |") 
 print("|  escolar dos seus alunos no ensino fundamental     |")
 print("|_________________________-__________________________|")
-
 
 aluno = 0 
 sr = 0 
@@ -31,8 +29,6 @@ l_Serie = []
 l_Falta = []  
 l_Diario = [l_Aluno,n_1, n_2,n_3,l_Falta,l_Serie] 
   
-
-
 #Função menu
 def menu (): 
     print(" ________________۞__________________")
@@ -105,12 +101,10 @@ def listar_alunos ():
     print("Alunos Matriculados", l_Aluno) 
     pass 
   
- 
 def lediario (): 
     print(l_Diario) 
     pass 
 
- 
 def salva_diario (): 
     salvar = input("Deseja salvar o diario: ")
     if salvar == "sim": 
@@ -119,7 +113,6 @@ def salva_diario ():
         print("Diario não Salvo")
     pass 
   
- 
 opcao = menu() 
 while opcao != "x": 
     if opcao == "1": 
@@ -135,7 +128,6 @@ while opcao != "x":
     elif opcao == "6":
         lediario()
  
-  
     opcao = menu() 
   
 salva_diario()
