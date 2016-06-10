@@ -7,7 +7,7 @@ print("|  Mat: 81310048                                     |")
 print("|  Bem Vindo ao colégio Alone                        |")
 print("|  Data: 06/06/2016                                  |")
 print("|  Descrição: Aqui você poderá fazer o Cadastro      |") 
-print("|  escolar dos seus alunos no ensino fundamental     |")
+print("|  escolar dos seus alunos do ensino fundamental     |")
 print("|_________________________-__________________________|")
 
 aluno = 0 
